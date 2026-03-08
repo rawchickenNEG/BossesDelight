@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 50.0,
+  "ingredients": [
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "bosses_delight:broken_obsidian_heart"
+    },
+    {
+      "item": "bosses_delight:obsidian_sauce"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "bosses_delight:obsidian_glazed_dragon_head_block"
+  }
+}

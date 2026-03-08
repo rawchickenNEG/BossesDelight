@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    }
+  ],
+  "result": [
+    {
+      "count": 4,
+      "item": "bosses_of_mass_destruction:soul_star"
+    },
+    {
+      "chance": 0.5,
+      "count": 4,
+      "item": "bosses_of_mass_destruction:soul_star"
+    }
+  ],
+  "tool": {
+    "item": "minecraft:nether_star"
+  }
+}

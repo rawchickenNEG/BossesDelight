@@ -1,0 +1,23 @@
+{
+  "type": "bosses_delight:soul_cooking",
+  "cookingtime": 400,
+  "experience": 10.0,
+  "ingredients": [
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    {
+      "item": "bosses_of_mass_destruction:soul_star"
+    }
+  ],
+  "recipe_book_tab": "foods",
+  "result": {
+    "item": "bosses_delight:anima_popsicle"
+  }
+}

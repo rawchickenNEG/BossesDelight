@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "bosses_delight:blazing_eye_shards"
+    },
+    {
+      "chance": 0.4,
+      "item": "bosses_delight:blazing_eye_shards"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool_action",
+    "action": "pickaxe_dig"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 3.0,
+  "ingredients": [
+    {
+      "tag": "bosses_delight:crystal_fruit"
+    },
+    {
+      "tag": "bosses_delight:crystal_fruit"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "bosses_delight:crystal_fruit_cider"
+  }
+}

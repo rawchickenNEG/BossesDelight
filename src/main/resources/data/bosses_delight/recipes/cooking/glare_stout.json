@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 5.0,
+  "ingredients": [
+    {
+      "item": "bosses_delight:blazing_eye_shards"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "bosses_delight:glare_stout"
+  }
+}

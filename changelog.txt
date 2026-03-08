@@ -1,0 +1,20 @@
+1.0.3
+    Added Magic Frozen Noodles.
+    Added Breakdown effect for ignore the hit box feature of Gauntlet.
+1.0.2
+    Added Nectar Jelly.
+    Added Obsidian Onion and Obsidian Sauce.
+    Added Config for Gauntlet Item.
+    Added new recipe for Ham Above Palm.
+    Added Config for Crops plantable blocks.
+    Changed Gauntlet Item can not collect Feast Block.
+    Changed some Obsidian meals recipe.
+    Fixed bug of Crystal Fruit Plant can be planted on block which are not Budding Amethyst Block and Bedrock Block.
+    Fixed bug of Crystal Fruit Plant can be harvested although is not fully grown.
+    Fixed bug of Crystal Fruit Plant has no seeds drop when you break the plant.
+    Fixed Crystal Fruit Plant particle texture lost bug.
+1.0.1
+    Added new achievement for Ancient Roll.
+    Changed recipe for Anima foods.
+    Optimized all block models with glowing.
+    Fixed bug of wrong recipes and achievements for block foods.

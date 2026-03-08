@@ -1,0 +1,46 @@
+{
+  "parent": "bosses_delight:bosses_delight/root",
+  "criteria": {
+    "bosses_delight_start_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bosses_delight:soul_cooking_pot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.bosses_delight.soul_cooking_pot.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bosses_delight:soul_cooking_pot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.bosses_delight.soul_cooking_pot.title"
+    }
+  },
+  "requirements": [
+    [
+      "bosses_delight_start_1"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bosses_delight:anima_popsicle",
+      "bosses_delight:crystal_cup_cake",
+      "bosses_delight:lich_smoothies",
+      "bosses_delight:magic_frozen_noodles",
+      "bosses_delight:nectar_jelly"
+    ]
+  }
+}

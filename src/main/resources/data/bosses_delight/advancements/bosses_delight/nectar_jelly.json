@@ -1,0 +1,28 @@
+{
+  "parent": "bosses_delight:bosses_delight/soul_cooking_pot",
+  "criteria": {
+    "bosses_delight_start_1": {
+      "trigger": "bosses_delight:jelly_trigger"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.bosses_delight.nectar_jelly.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "bosses_delight:nectar_jelly"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.bosses_delight.nectar_jelly.title"
+    }
+  },
+  "requirements": [
+    [
+      "bosses_delight_start_1"
+    ]
+  ]
+}

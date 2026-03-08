@@ -1,0 +1,37 @@
+{
+  "parent": "bosses_delight:bosses_delight/root",
+  "criteria": {
+    "bosses_delight_start_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bosses_delight:ancient_roll"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.bosses_delight.ancient_roll.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bosses_delight:ancient_roll"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.bosses_delight.ancient_roll.title"
+    }
+  },
+  "requirements": [
+    [
+      "bosses_delight_start_1"
+    ]
+  ]
+}

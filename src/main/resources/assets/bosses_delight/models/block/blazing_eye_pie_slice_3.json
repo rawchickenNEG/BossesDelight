@@ -1,0 +1,62 @@
+{
+	"credit": "Made with Blockbench",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"4": "bosses_delight:block/flames",
+		"inner": "bosses_delight:block/blazing_eye_inner",
+		"particle": "bosses_delight:block/blazing_eye_pie_side",
+		"side": "bosses_delight:block/blazing_eye_pie_side",
+		"top": "bosses_delight:block/blazing_eye_pie_top",
+		"bottom": "bosses_delight:block/blazing_eye_pie_bottom"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 2],
+			"to": [14, 4, 8],
+			"faces": {
+				"north": {"uv": [2, 12, 8, 16], "texture": "#side"},
+				"east": {"uv": [8, 12, 14, 16], "texture": "#side"},
+				"south": {"uv": [8, 12, 14, 16], "texture": "#inner"},
+				"west": {"uv": [2, 12, 8, 16], "texture": "#inner"},
+				"up": {"uv": [8, 14, 2, 8], "texture": "#top"},
+				"down": {"uv": [8, 8, 14, 14], "texture": "#bottom"}
+			}
+		},
+		{
+			"from": [15, 0, 1],
+			"to": [15, 4, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 4], "texture": "#4"},
+				"east": {"uv": [1, 12, 8, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 0, 4], "texture": "#4"},
+				"west": {"uv": [8, 12, 1, 16], "texture": "#4"},
+				"up": {"uv": [7, 0, 0, 0], "rotation": 270, "texture": "#4"},
+				"down": {"uv": [7, 0, 0, 0], "rotation": 90, "texture": "#4"}
+			},
+			"forge_data": {
+				"block_light": 15,
+				"sky_light": 15,
+				"ambient_occlusion": false
+			}
+		},
+		{
+			"from": [8, 0, 1],
+			"to": [15, 4, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 12, 15, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 0, 4], "texture": "#4"},
+				"south": {"uv": [15, 12, 8, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 0, 4], "texture": "#4"},
+				"up": {"uv": [0, 7, 0, 0], "rotation": 270, "texture": "#4"},
+				"down": {"uv": [0, 7, 0, 0], "rotation": 90, "texture": "#4"}
+			},
+			"forge_data": {
+				"block_light": 15,
+				"sky_light": 15,
+				"ambient_occlusion": false
+			}
+		}
+	]
+}

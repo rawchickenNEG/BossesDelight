@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 5.0,
+  "ingredients": [
+    {
+      "item": "bosses_of_mass_destruction:brimstone_nectar"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "bosses_delight:brimstone_nectar_tea"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 5.0,
+  "ingredients": [
+    {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "item": "bosses_delight:anima_ice_drink"
+  }
+}

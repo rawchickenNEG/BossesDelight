@@ -1,0 +1,33 @@
+{
+  "parent": "bosses_delight:bosses_delight/obsidian_glazed_dragon_head",
+  "criteria": {
+    "bosses_delight_start_1": {
+      "conditions": {
+        "effects": {
+          "bosses_delight:last_stand": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.bosses_delight.last_stand.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bosses_of_mass_destruction:obsidian_heart"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.bosses_delight.last_stand.title"
+    }
+  },
+  "requirements": [
+    [
+      "bosses_delight_start_1"
+    ]
+  ]
+}

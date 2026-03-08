@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "bosses_of_mass_destruction:crystal_fruit"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "bosses_delight:crystal_fruit_slice"
+    },
+    {
+      "chance": 0.025,
+      "item": "bosses_delight:crystal_fruit_seeds"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

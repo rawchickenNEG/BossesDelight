@@ -1,0 +1,11 @@
+{
+  "type": "bosses_delight:add_loot_table",
+  "conditions":
+  [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "bosses_of_mass_destruction:chests/obsidilith"
+    }
+  ],
+  "lootTable": "bosses_delight:add_obsidilith_rune"
+}

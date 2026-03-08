@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "2": {
+      "item": "bosses_delight:obsidian_onion"
+    },
+    "1": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "111",
+    "121",
+    "111"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:crying_obsidian"
+  }
+}

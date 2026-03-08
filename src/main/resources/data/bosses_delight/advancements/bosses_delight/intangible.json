@@ -1,0 +1,33 @@
+{
+  "parent": "bosses_delight:bosses_delight/lich_smoothies",
+  "criteria": {
+    "bosses_delight_start_1": {
+      "conditions": {
+        "effects": {
+          "bosses_delight:intangible": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.bosses_delight.intangible.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.bosses_delight.intangible.title"
+    }
+  },
+  "requirements": [
+    [
+      "bosses_delight_start_1"
+    ]
+  ]
+}

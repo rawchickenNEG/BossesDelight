@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.github.rcneg.bossesdelight.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "refmap": "bosses_delight.refmap.json",
+  "mixins": [
+    "GauntletHitboxesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

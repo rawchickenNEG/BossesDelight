@@ -1,0 +1,37 @@
+{
+  "parent": "bosses_delight:bosses_delight/root",
+  "criteria": {
+    "bosses_delight_start_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bosses_delight:crystal_fruit_seeds"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.bosses_delight.crystal_fruit_seeds.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "bosses_delight:crystal_fruit_seeds"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.bosses_delight.crystal_fruit_seeds.title"
+    }
+  },
+  "requirements": [
+    [
+      "bosses_delight_start_1"
+    ]
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "bosses_delight:soul_cooking",
+  "container": {
+    "item": "bosses_delight:crystal_fruit_slice"
+  },
+  "cookingtime": 400,
+  "experience": 5.0,
+  "ingredients": [
+    {
+      "tag": "bosses_delight:crystal_fruit"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "recipe_book_tab": "foods",
+  "result": {
+    "item": "bosses_delight:crystal_cup_cake"
+  }
+}

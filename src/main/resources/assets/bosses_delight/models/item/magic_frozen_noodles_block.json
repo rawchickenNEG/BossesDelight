@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bosses_delight:item/magic_frozen_noodles"
+  }
+}

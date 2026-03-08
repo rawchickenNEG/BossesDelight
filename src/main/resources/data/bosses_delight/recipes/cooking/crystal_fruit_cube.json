@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 400,
+  "experience": 20.0,
+  "ingredients": [
+    {
+      "tag": "bosses_delight:crystal_fruit"
+    },
+    {
+      "tag": "bosses_delight:crystal_fruit"
+    },
+    {
+      "tag": "bosses_delight:crystal_fruit"
+    },
+    {
+      "item": "minecraft:amethyst_block"
+    },
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "bosses_delight:crystal_fruit_cube_block"
+  }
+}

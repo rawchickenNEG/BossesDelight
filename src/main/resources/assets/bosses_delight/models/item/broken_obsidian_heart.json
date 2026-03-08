@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bosses_delight:item/broken_obsidian_heart"
+  }
+}

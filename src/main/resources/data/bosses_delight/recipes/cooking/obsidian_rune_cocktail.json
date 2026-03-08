@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "bosses_of_mass_destruction:obsidilith_rune"
+  },
+  "cookingtime": 400,
+  "experience": 10.0,
+  "ingredients": [
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:ender_pearl"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "bosses_delight:broken_obsidian_heart"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "bosses_delight:obsidian_rune_cocktail"
+  }
+}

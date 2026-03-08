@@ -1,0 +1,40 @@
+{
+  "parent": "bosses_delight:bosses_delight/root",
+  "criteria": {
+    "bosses_delight_start_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bosses_delight:bosses_hodgepodge"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.bosses_delight.bosses_hodgepodge.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "bosses_delight:bosses_hodgepodge"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.bosses_delight.bosses_hodgepodge.title"
+    }
+  },
+  "requirements": [
+    [
+      "bosses_delight_start_1"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  }
+}

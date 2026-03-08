@@ -1,0 +1,37 @@
+{
+  "parent": "bosses_delight:bosses_delight/gauntlet",
+  "criteria": {
+    "bosses_delight_start_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bosses_delight:ham_above_palm_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.bosses_delight.ham_above_palm.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bosses_delight:ham_above_palm_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.bosses_delight.ham_above_palm.title"
+    }
+  },
+  "requirements": [
+    [
+      "bosses_delight_start_1"
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "bosses_of_mass_destruction:obsidilith_rune"
+    },
+    "2": {
+      "item": "bosses_delight:obsidian_onion"
+    }
+  },
+  "pattern": [
+    " 1 ",
+    "121",
+    " 1 "
+  ],
+  "result": {
+    "item": "bosses_delight:broken_obsidian_heart"
+  }
+}

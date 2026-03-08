@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "t": {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    "s": {
+      "item": "farmersdelight:flint_knife"
+    }
+  },
+  "pattern": [
+    "t",
+    "s"
+  ],
+  "result": {
+    "item": "bosses_delight:void_thorn_knife"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "bosses_delight:bosses_delight/ham_above_palm",
+  "criteria": {
+    "bosses_delight_start_1": {
+      "conditions": {
+        "effects": {
+          "bosses_delight:gauntlet_protection": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.bosses_delight.gauntlet_protection.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bosses_of_mass_destruction:blazing_eye"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.bosses_delight.gauntlet_protection.title"
+    }
+  },
+  "requirements": [
+    [
+      "bosses_delight_start_1"
+    ]
+  ]
+}

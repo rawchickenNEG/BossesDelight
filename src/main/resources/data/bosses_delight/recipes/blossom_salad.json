@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:spore_blossom"
+    },
+    {
+      "tag": "bosses_delight:crystal_fruit"
+    },
+    {
+      "item": "bosses_of_mass_destruction:void_lily"
+    }
+  ],
+  "result": {
+    "item": "bosses_delight:blossom_salad"
+  }
+}

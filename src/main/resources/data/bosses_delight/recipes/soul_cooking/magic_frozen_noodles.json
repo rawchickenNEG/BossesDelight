@@ -1,0 +1,32 @@
+{
+  "type": "bosses_delight:soul_cooking",
+  "container": {
+    "item": "minecraft:enchanted_book"
+  },
+  "cookingtime": 400,
+  "experience": 50.0,
+  "ingredients": [
+    {
+      "item": "bosses_of_mass_destruction:ancient_anima"
+    },
+    {
+      "tag": "forge:pasta"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "tag": "forge:raw_fishes/salmon"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "bosses_of_mass_destruction:soul_star"
+    }
+  ],
+  "recipe_book_tab": "foods",
+  "result": {
+    "item": "bosses_delight:magic_frozen_noodles_block"
+  }
+}
