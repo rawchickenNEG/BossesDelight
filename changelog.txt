@@ -1,6 +1,8 @@
 1.0.3
     Added Magic Frozen Noodles.
     Added Breakdown effect for ignore the hit box feature of Gauntlet.
+    Added new recipe for freezing foods.
+    Fixed bug of gauntlet protection not effective when effect level is 1
 1.0.2
     Added Nectar Jelly.
     Added Obsidian Onion and Obsidian Sauce.

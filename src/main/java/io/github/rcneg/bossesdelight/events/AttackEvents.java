@@ -49,7 +49,7 @@ public class AttackEvents {
                 if(event.getSource().getEntity() instanceof LivingEntity living && living.hasEffect(EffectRegistry.BREAKDOWN.get())) return;
                 float angle = Math.abs(event.getSource().getEntity().getYRot() - entity.getYRot()) % 360;
                 if(angle < 90|| angle > 270){
-                    event.setAmount((float) (event.getAmount() * Math.pow(0.5, entity.getEffect(effect).getAmplifier())));
+                    event.setAmount((float) (event.getAmount() * Math.pow(0.5, entity.getEffect(effect).getAmplifier() + 1)));
                 }
             }
         }
