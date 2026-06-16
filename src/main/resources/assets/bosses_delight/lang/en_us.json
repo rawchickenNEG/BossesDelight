@@ -33,9 +33,10 @@
   "advancements.bosses_delight.magic_frozen_noodles.title": "Tornoodle",
   "advancements.bosses_delight.magic_frozen_noodles.description": "Yes, those floating thing are noodles.",
   "advancements.bosses_delight.soul_cooking_pot.title": "Cooking Souls",
-  "advancements.bosses_delight.soul_cooking_pot.description": "Get soul cooking out.",
+  "advancements.bosses_delight.soul_cooking_pot.description": "Get soul cooking out by extreme cold.",
 
-  "block.bosses_delight.obsidian_glazed_dragon_head_block": "Obsidian Glazed Dragon Head",
+  "block.bosses_delight.obsidian_glazed_dragon_head_block": "Obsidian Glazed Dragon Head (Legacy)",
+  "block.bosses_delight.obsidian_glazed_dragon_head": "Obsidian Glazed Dragon Head",
   "block.bosses_delight.crystal_fruit_cube_block": "Crystal Fruit Cube",
   "block.bosses_delight.lich_smoothies_block": "Lich Smoothies",
   "block.bosses_delight.magic_frozen_noodles_block": "Magic Frozen Noodles",
@@ -52,6 +53,8 @@
   "item.bosses_delight.obsidian_rune_puree": "Obsidian Rune Puree",
   "item.bosses_delight.obsidian_rune_cocktail": "Obsidian Rune Cocktail",
   "item.bosses_delight.bowl_of_obsidian_glazed_dragon_head": "Bowl Of Obsidian Glazed Dragon Head",
+  "item.bosses_delight.bowl_of_obsidian_glazed_dragon_brain": "Bowl Of Obsidian Glazed Dragon Brain",
+  "item.bosses_delight.obsidian_glazed_dragon_tongue": "Obsidian Glazed Dragon Tongue",
   "item.bosses_delight.void_thorn_knife": "Void Thorn Knife",
   "item.bosses_delight.crystal_fruit_slice": "Crystal Fruit Slice",
   "item.bosses_delight.crystal_fruit_seeds": "Crystal Fruit Seeds",
@@ -93,18 +96,21 @@
   "tooltip.bosses_delight.obsidian_onion": "Can only be planted on Obsidian and Crying Obsidian.",
   "tooltip.bosses_delight.nectar_jelly": "Right Click on consumed placeable food block to renew the consumed parts.",
 
-  "farmersdelight.tooltip.anima_ice_drink": "Add 1 level to a random effect you have after consuming.",
-  "farmersdelight.tooltip.brimstone_nectar_tea": "Apply random beneficial effect after consuming.",
+  "farmersdelight.tooltip.brimstone_nectar_tea": "Remove all effects and recover all HP after consuming.",
   "farmersdelight.tooltip.crystal_fruit_cider": "Add 30 seconds duration to a random effect you have after consuming.",
-  "farmersdelight.tooltip.glare_stout": "Disorganize all effects duration and level you have after consuming.",
+
+  "tooltip.bosses_delight.glare_stout": "Disorganize all effects duration and level you have which level is lower than %s after consuming.",
+  "tooltip.bosses_delight.anima_ice_drink": "Add 1 level to a random effect you have after consuming (Up to %s).",
 
   "bosses_delight.container.recipe_book.cookable": "Showing Cookable",
-  "bosses_delight.container.cooking_pot": "Cooking Pot",
+  "bosses_delight.container.cooking_pot": "Soul Cooking Pot",
   "bosses_delight.container.cooking_pot.served_on": "Served on: %s",
   "bosses_delight.container.cooking_pot.not_heated": "Needs cold block from below",
   "bosses_delight.container.cooking_pot.heated": "Frosted",
 
   "bosses_delight.tooltip.cooking_pot.empty": "Empty",
   "bosses_delight.tooltip.cooking_pot.single_serving": "Holds 1 serving of:",
-  "bosses_delight.tooltip.cooking_pot.many_servings": "Holds %s servings of:"
+  "bosses_delight.tooltip.cooking_pot.many_servings": "Holds %s servings of:",
+
+  "bosses_delight.jei.soul_cooking": "Soul Cooking"
 }

@@ -6,10 +6,10 @@
     "top": "bosses_delight:block/soul_cooking_pot_top",
     "particle": "bosses_delight:block/soul_cooking_pot_side",
     "side": "bosses_delight:block/soul_cooking_pot_side",
-    "parts": "farmersdelight:block/cooking_pot_parts",
-    "bottom": "farmersdelight:block/cooking_pot_bottom",
-    "tray_top": "farmersdelight:block/cooking_pot_tray_top",
-    "tray_side": "farmersdelight:block/cooking_pot_tray_side"
+    "parts": "bosses_delight:block/soul_cooking_pot_parts",
+    "bottom": "bosses_delight:block/soul_cooking_pot_bottom",
+    "tray_top": "bosses_delight:block/soul_cooking_pot_tray_top",
+    "tray_side": "bosses_delight:block/soul_cooking_pot_tray_side"
   },
   "elements": [
     {

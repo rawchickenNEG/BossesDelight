@@ -1,0 +1,304 @@
+{
+  "variants": {
+    "facing=west,servings=0,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_9",
+      "y": 90
+    },
+    "facing=west,servings=1,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_8",
+      "y": 90
+    },
+    "facing=west,servings=2,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_7",
+      "y": 90
+    },
+    "facing=west,servings=3,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_6",
+      "y": 90
+    },
+    "facing=west,servings=4,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_5",
+      "y": 90
+    },
+    "facing=west,servings=5,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_4",
+      "y": 90
+    },
+    "facing=west,servings=6,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_3",
+      "y": 90
+    },
+    "facing=west,servings=7,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_2",
+      "y": 90
+    },
+    "facing=west,servings=8,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_1",
+      "y": 90
+    },
+    "facing=west,servings=9,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_0",
+      "y": 90
+    },
+    "facing=west,servings=0,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_9",
+      "y": 90
+    },
+    "facing=west,servings=1,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_8",
+      "y": 90
+    },
+    "facing=west,servings=2,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_7",
+      "y": 90
+    },
+    "facing=west,servings=3,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_6",
+      "y": 90
+    },
+    "facing=west,servings=4,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_5",
+      "y": 90
+    },
+    "facing=west,servings=5,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_4",
+      "y": 90
+    },
+    "facing=west,servings=6,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_3",
+      "y": 90
+    },
+    "facing=west,servings=7,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_2",
+      "y": 90
+    },
+    "facing=west,servings=8,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_1",
+      "y": 90
+    },
+    "facing=west,servings=9,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_0",
+      "y": 90
+    },
+    "facing=south,servings=0,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_9"
+    },
+    "facing=south,servings=1,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_8"
+    },
+    "facing=south,servings=2,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_7"
+    },
+    "facing=south,servings=3,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_6"
+    },
+    "facing=south,servings=4,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_5"
+    },
+    "facing=south,servings=5,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_4"
+    },
+    "facing=south,servings=6,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_3"
+    },
+    "facing=south,servings=7,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_2"
+    },
+    "facing=south,servings=8,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_1"
+    },
+    "facing=south,servings=9,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_0"
+    },
+    "facing=south,servings=0,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_9"
+    },
+    "facing=south,servings=1,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_8"
+    },
+    "facing=south,servings=2,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_7"
+    },
+    "facing=south,servings=3,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_6"
+    },
+    "facing=south,servings=4,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_5"
+    },
+    "facing=south,servings=5,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_4"
+    },
+    "facing=south,servings=6,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_3"
+    },
+    "facing=south,servings=7,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_2"
+    },
+    "facing=south,servings=8,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_1"
+    },
+    "facing=south,servings=9,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_0"
+    },
+    "facing=north,servings=0,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_9",
+      "y": 180
+    },
+    "facing=north,servings=1,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_8",
+      "y": 180
+    },
+    "facing=north,servings=2,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_7",
+      "y": 180
+    },
+    "facing=north,servings=3,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_6",
+      "y": 180
+    },
+    "facing=north,servings=4,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_5",
+      "y": 180
+    },
+    "facing=north,servings=5,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_4",
+      "y": 180
+    },
+    "facing=north,servings=6,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_3",
+      "y": 180
+    },
+    "facing=north,servings=7,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_2",
+      "y": 180
+    },
+    "facing=north,servings=8,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_1",
+      "y": 180
+    },
+    "facing=north,servings=9,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_0",
+      "y": 180
+    },
+    "facing=north,servings=0,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_9",
+      "y": 180
+    },
+    "facing=north,servings=1,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_8",
+      "y": 180
+    },
+    "facing=north,servings=2,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_7",
+      "y": 180
+    },
+    "facing=north,servings=3,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_6",
+      "y": 180
+    },
+    "facing=north,servings=4,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_5",
+      "y": 180
+    },
+    "facing=north,servings=5,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_4",
+      "y": 180
+    },
+    "facing=north,servings=6,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_3",
+      "y": 180
+    },
+    "facing=north,servings=7,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_2",
+      "y": 180
+    },
+    "facing=north,servings=8,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_1",
+      "y": 180
+    },
+    "facing=north,servings=9,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_0",
+      "y": 180
+    },
+    "facing=east,servings=0,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_9",
+      "y": 270
+    },
+    "facing=east,servings=1,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_8",
+      "y": 270
+    },
+    "facing=east,servings=2,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_7",
+      "y": 270
+    },
+    "facing=east,servings=3,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_6",
+      "y": 270
+    },
+    "facing=east,servings=4,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_5",
+      "y": 270
+    },
+    "facing=east,servings=5,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_4",
+      "y": 270
+    },
+    "facing=east,servings=6,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_3",
+      "y": 270
+    },
+    "facing=east,servings=7,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_2",
+      "y": 270
+    },
+    "facing=east,servings=8,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_1",
+      "y": 270
+    },
+    "facing=east,servings=9,part=back": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_back_0",
+      "y": 270
+    },
+    "facing=east,servings=0,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_9",
+      "y": 270
+    },
+    "facing=east,servings=1,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_8",
+      "y": 270
+    },
+    "facing=east,servings=2,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_7",
+      "y": 270
+    },
+    "facing=east,servings=3,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_6",
+      "y": 270
+    },
+    "facing=east,servings=4,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_5",
+      "y": 270
+    },
+    "facing=east,servings=5,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_4",
+      "y": 270
+    },
+    "facing=east,servings=6,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_3",
+      "y": 270
+    },
+    "facing=east,servings=7,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_2",
+      "y": 270
+    },
+    "facing=east,servings=8,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_1",
+      "y": 270
+    },
+    "facing=east,servings=9,part=front": {
+      "model": "bosses_delight:block/dragon_head_with_sauce_block_front_0",
+      "y": 270
+    }
+  }
+}

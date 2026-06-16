@@ -69,6 +69,12 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+
+    maven {
+        // CraftTweaker
+        name = "BlameJared"
+        url = "https://maven.blamejared.com/"
+    }
 }
 
 mixin {
@@ -78,6 +84,12 @@ mixin {
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    // compile against the JEI API but do not include it at runtime
+    compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+    compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:${jei_version}")
+    // at runtime, use the full JEI jar for Forge
+    runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
+
     implementation fg.deobf("curse.maven:FarmerDelight-398521:${farmersdelight_version}")
     implementation fg.deobf("curse.maven:BOMD-941573:${bomd_version}")
     //前置

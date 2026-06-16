@@ -1,0 +1,20 @@
+{
+  "type": "bosses_delight:soul_cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    }
+  ],
+  "recipe_book_tab": "foods",
+  "result": {
+    "item": "minecraft:blue_ice"
+  }
+}

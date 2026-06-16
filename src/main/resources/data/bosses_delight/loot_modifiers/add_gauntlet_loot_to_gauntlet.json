@@ -7,5 +7,5 @@
       "loot_table_id": "bosses_of_mass_destruction:chests/gauntlet"
     }
   ],
-  "lootTable": "bosses_delight:add_ancient_roll"
+  "lootTable": "bosses_delight:add_gauntlet"
 }

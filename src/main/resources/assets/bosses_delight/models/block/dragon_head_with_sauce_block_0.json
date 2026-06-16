@@ -3,7 +3,7 @@
 	"render_type": "minecraft:cutout",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "bosses_delight:block/dragon_head_with_sauce_block",
+		"1": "bosses_delight:block/dragon_head_with_sauce_block_legacy",
 		"2": "bosses_delight:block/dragon_head_with_sauce_tray_bottom",
 		"3": "bosses_delight:block/dragon_head_with_sauce_tray_top",
 		"particle": "bosses_delight:block/dragon_head_with_sauce_tray_bottom"

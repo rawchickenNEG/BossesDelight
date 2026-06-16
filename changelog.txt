@@ -1,8 +1,18 @@
 1.0.3
     Added Magic Frozen Noodles.
     Added Breakdown effect for ignore the hit box feature of Gauntlet.
+    Add Soul Cooking Pot.
+    Add more dragon head foods.
     Added new recipe for freezing foods.
+    Add Ancient Roll into bastion chest loottable.
+    Add a new dragon head food block to replace the old one.
+    Add effect tooltip for food items (Change item to farmers delight consumable item)
+    Change effect of Ancient Roll.
+    Change Soul Cooking Pot texture.
+    Change Obsidian Glazed Dragon Head model and recipe.
+    Change consume effect of Nectar Tea.
     Fixed bug of gauntlet protection not effective when effect level is 1
+    Remove creative tab for old Obsidian Glazed Dragon Head.
 1.0.2
     Added Nectar Jelly.
     Added Obsidian Onion and Obsidian Sauce.

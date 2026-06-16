@@ -6,9 +6,9 @@
     "top": "bosses_delight:block/soul_cooking_pot_top",
     "particle": "bosses_delight:block/soul_cooking_pot_side",
     "side": "bosses_delight:block/soul_cooking_pot_side",
-    "parts": "farmersdelight:block/cooking_pot_parts",
-    "bottom": "farmersdelight:block/cooking_pot_bottom",
-    "handle": "farmersdelight:block/cooking_pot_handle"
+    "parts": "bosses_delight:block/soul_cooking_pot_parts",
+    "bottom": "bosses_delight:block/soul_cooking_pot_bottom",
+    "handle": "bosses_delight:block/soul_cooking_pot_handle"
   },
   "elements": [
     {

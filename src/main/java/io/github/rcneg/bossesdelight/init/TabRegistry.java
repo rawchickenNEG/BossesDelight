@@ -8,15 +8,23 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Supplier;
+
 public class TabRegistry {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BossesDelight.MODID);
+
+    private static final List<Supplier<Item>> NO_TAB_ITEMS = Arrays.asList(
+            ItemRegistry.OBSIDIAN_GLAZED_DRAGON_HEAD_LEGACY
+    );
 
     public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register(BossesDelight.MODID, () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.bosses_delight"))
             .icon(ItemRegistry.OBSIDIAN_RUNE_PUREE.get()::getDefaultInstance)
             .displayItems((parameters, output) -> {
                 for(RegistryObject<Item> item: ItemRegistry.ITEMS.getEntries()){
-                    output.accept(item.get());
+                    if(!NO_TAB_ITEMS.contains(item)) output.accept(item.get());
                 }
             }).build());
 }

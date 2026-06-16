@@ -1,0 +1,23 @@
+{
+  "type": "bosses_delight:soul_cooking",
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:ice"
+    }
+  ],
+  "recipe_book_tab": "foods",
+  "result": {
+    "item": "farmersdelight:melon_popsicle"
+  }
+}

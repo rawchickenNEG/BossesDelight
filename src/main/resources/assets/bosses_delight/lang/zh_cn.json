@@ -31,10 +31,11 @@
   "advancements.bosses_delight.nectar_jelly.description": "这是特性，不是BUG！",
   "advancements.bosses_delight.magic_frozen_noodles.title": "面条龙卷风",
   "advancements.bosses_delight.magic_frozen_noodles.description": "是的，那些飘在空中的是面条。",
-  "advancements.bosses_delight.soul_cooking_pot.title": "烹饪灵魂",
-  "advancements.bosses_delight.soul_cooking_pot.description": "获得灵魂锅。",
+  "advancements.bosses_delight.soul_cooking_pot.title": "透心凉，心飞扬",
+  "advancements.bosses_delight.soul_cooking_pot.description": "获得灵魂锅，它可以借助极寒与灵魂来烹饪。",
 
-  "block.bosses_delight.obsidian_glazed_dragon_head_block": "黑曜浇汁龙首",
+  "block.bosses_delight.obsidian_glazed_dragon_head_block": "黑曜浇汁龙首（旧版）",
+  "block.bosses_delight.obsidian_glazed_dragon_head": "黑曜浇汁龙首",
   "block.bosses_delight.crystal_fruit_cube_block": "晶果立方",
   "block.bosses_delight.lich_smoothies_block": "巫妖冰沙",
   "block.bosses_delight.magic_frozen_noodles_block": "蕴魔冷炙意面",
@@ -51,6 +52,8 @@
   "item.bosses_delight.obsidian_rune_puree": "黑曜符文浓汤",
   "item.bosses_delight.obsidian_rune_cocktail": "黑曜符文鸡尾酒",
   "item.bosses_delight.bowl_of_obsidian_glazed_dragon_head": "碗装黑曜浇汁龙首",
+  "item.bosses_delight.bowl_of_obsidian_glazed_dragon_brain": "碗装黑曜浇汁龙脑",
+  "item.bosses_delight.obsidian_glazed_dragon_tongue": "黑曜浇汁龙舌",
   "item.bosses_delight.void_thorn_knife": "虚空棘刃",
   "item.bosses_delight.crystal_fruit_slice": "水晶果实切片",
   "item.bosses_delight.crystal_fruit_seeds": "水晶果实种子",
@@ -92,10 +95,11 @@
   "tooltip.bosses_delight.obsidian_onion": "只能种在黑曜石或哭泣的黑曜石上。",
   "tooltip.bosses_delight.nectar_jelly": "右击食用过的可放置的食物来补全消耗的部分。",
 
-  "farmersdelight.tooltip.anima_ice_drink": "饮用后随机将你的效果增加1级",
-  "farmersdelight.tooltip.brimstone_nectar_tea": "饮用后随机获得正面效果",
+  "farmersdelight.tooltip.brimstone_nectar_tea": "饮用后清除所有效果并完全恢复生命值",
   "farmersdelight.tooltip.crystal_fruit_cider": "饮用后随机将你的效果增加30秒持续时间",
-  "farmersdelight.tooltip.glare_stout": "饮用后打乱你拥有的药水效果时长和等级",
+
+  "tooltip.bosses_delight.glare_stout": "饮用后打乱你拥有的不大于%s级的药水效果时长和等级",
+  "tooltip.bosses_delight.anima_ice_drink": "饮用后随机将你的效果增加1级（至多%s级）",
 
   "bosses_delight.container.recipe_book.cookable": "仅显示可烹饪",
   "bosses_delight.container.cooking_pot": "灵魂锅",
@@ -105,5 +109,7 @@
 
   "bosses_delight.tooltip.cooking_pot.empty": "空",
   "bosses_delight.tooltip.cooking_pot.single_serving": "装有1份：",
-  "bosses_delight.tooltip.cooking_pot.many_servings": "装有%s份："
+  "bosses_delight.tooltip.cooking_pot.many_servings": "装有%s份：",
+
+  "bosses_delight.jei.soul_cooking": "灵魂料理"
 }

@@ -1,5 +1,8 @@
 {
   "type": "bosses_delight:soul_cooking",
+  "container": {
+    "item": "minecraft:stick"
+  },
   "cookingtime": 400,
   "experience": 10.0,
   "ingredients": [

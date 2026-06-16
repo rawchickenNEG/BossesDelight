@@ -18,6 +18,9 @@ public class Config
     // COMMON
     public static ForgeConfigSpec.BooleanValue COLLECT_FEAST;
     public static ForgeConfigSpec.BooleanValue OBSIDIAN_ONION_CONVERTING;
+    public static ForgeConfigSpec.IntValue GLARE_SODA_LEVEL;
+    public static ForgeConfigSpec.IntValue ANIMA_DRINK_LEVEL;
+
     public static List<Block> CRYSTAL_FRUIT_PLANTABLE_BLOCKS, OBSIDIAN_ONION_PLANTABLE_BLOCKS;
     private static final ForgeConfigSpec.ConfigValue<List<? extends String>> CRYSTAL_FRUIT_WHITELIST_BLOCKS;
     private static final ForgeConfigSpec.ConfigValue<List<? extends String>> OBSIDIAN_ONION_WHITELIST_BLOCKS;
@@ -37,6 +40,14 @@ public class Config
                 .comment("Define which blocks allow Crystal Fruits to plant on, leave space will use the default value.")
                 .defineListAllowEmpty("CrystalFruitPlantableBlocks",
                         List.of("minecraft:bedrock", "minecraft:budding_amethyst"), Config::validateBlockName);
+        COMMON_BUILDER.pop();
+        COMMON_BUILDER.push("Glare Soda");
+        GLARE_SODA_LEVEL = COMMON_BUILDER.comment("Modify the max effect level of Glare Soda that can be disorganized.")
+                .defineInRange("DisorganizeMaxLevel", 5, 1, 255);
+        COMMON_BUILDER.pop();
+        COMMON_BUILDER.push("Anima Ice Drink");
+        ANIMA_DRINK_LEVEL = COMMON_BUILDER.comment("Modify the max effect level of Glare Soda that can be upgraded to.")
+                .defineInRange("UpgradeMaxLevel", 5, 1, 255);
         COMMON_BUILDER.pop();
         COMMON_BUILDER.push("Obsidian Onions");
         OBSIDIAN_ONION_WHITELIST_BLOCKS = COMMON_BUILDER

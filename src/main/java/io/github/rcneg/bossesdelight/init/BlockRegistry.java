@@ -11,15 +11,16 @@ import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import vectorwing.farmersdelight.common.block.CookingPotBlock;
 import vectorwing.farmersdelight.common.block.PieBlock;
-import vectorwing.farmersdelight.common.registry.ModItems;
 
 public class BlockRegistry {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, BossesDelight.MODID);
 
-    public static final RegistryObject<Block> OBSIDIAN_GLAZED_DRAGON_HEAD_BLOCK  = BLOCKS.register("obsidian_glazed_dragon_head_block", () -> {
-        return new ObsidianGlazedDragonHeadBlock(BlockBehaviour.Properties.copy(Blocks.CAKE), ItemRegistry.BOWL_OF_OBSIDIAN_GLAZED_DRAGON_HEAD, true);
+    public static final RegistryObject<Block> OBSIDIAN_GLAZED_DRAGON_HEAD_BLOCK_LEGACY  = BLOCKS.register("obsidian_glazed_dragon_head_block", () -> {
+        return new ObsidianGlazedDragonHeadBlockLegacy(BlockBehaviour.Properties.copy(Blocks.CAKE), ItemRegistry.BOWL_OF_OBSIDIAN_GLAZED_DRAGON_HEAD, true);
+    });
+    public static final RegistryObject<Block> OBSIDIAN_GLAZED_DRAGON_HEAD_BLOCK  = BLOCKS.register("obsidian_glazed_dragon_head", () -> {
+        return new ObsidianGlazedDragonHeadBlock(BlockBehaviour.Properties.copy(Blocks.CAKE));
     });
     public static final RegistryObject<Block> CRYSTAL_FRUIT_CUBE_BLOCK  = BLOCKS.register("crystal_fruit_cube_block", () -> {
         return new CrystalFruitCubeBlock(BlockBehaviour.Properties.of().forceSolidOn().strength(0.5F).sound(SoundType.SLIME_BLOCK).pushReaction(PushReaction.DESTROY), ItemRegistry.BOWL_OF_CRYSTAL_FRUIT_CUBE, false);
