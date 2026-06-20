@@ -1,3 +1,12 @@
+1.0.4
+    Add Soul Cooking Pot drop loot table.
+    Change Obsidian Glazed Dragon Head recipe.
+    Change Obsidian Glazed Dragon Head block collision box.
+    Fix incorrect Intangible effect chance of avoiding damage.
+    Fix Obsidian Glazed Dragon Head block drop issue.
+    Fix Obsidian Glazed Dragon Head advancement issue.
+    Fix Obsidian Glazed Dragon Tongue return bowl issue.
+    Nectar Jelly will not trigger block use on event when right click on blocks.
 1.0.3
     Added Magic Frozen Noodles.
     Added Breakdown effect for ignore the hit box feature of Gauntlet.

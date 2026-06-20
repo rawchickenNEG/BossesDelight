@@ -62,7 +62,7 @@ public class AttackEvents {
             LivingEntity entity = event.getEntity();
             MobEffect effect2 = EffectRegistry.INTANGIBLE.get();
             if(entity.hasEffect(effect2) && !event.getSource().is(DamageTypes.GENERIC_KILL)){
-                if(entity.getRandom().nextInt(10) < 2 * entity.getEffect(effect2).getAmplifier() || event.getSource().getDirectEntity() instanceof Projectile){
+                if(entity.getRandom().nextInt(10) < 2 * (entity.getEffect(effect2).getAmplifier() + 1) || event.getSource().getDirectEntity() instanceof Projectile){
                     level.playSound(null, entity.getX(), entity.getY(), entity.getZ(), SoundEvents.ALLAY_ITEM_TAKEN, SoundSource.NEUTRAL, 1.0F, 0.3F);
                     event.setCanceled(true);
                 }

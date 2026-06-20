@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "bosses_delight:obsidian_glazed_dragon_head_block"
+              "bosses_delight:obsidian_glazed_dragon_head"
             ]
           }
         ]
@@ -22,7 +22,7 @@
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "bosses_delight:obsidian_glazed_dragon_head_block"
+      "item": "bosses_delight:obsidian_glazed_dragon_head"
     },
     "show_toast": true,
     "title": {

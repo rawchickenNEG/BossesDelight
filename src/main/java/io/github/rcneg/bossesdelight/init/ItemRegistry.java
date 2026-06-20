@@ -59,7 +59,7 @@ public class ItemRegistry {
                     .effect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 6000, 1), 1.0F)
                     .effect(new MobEffectInstance(ModEffects.NOURISHMENT.get(), 6000, 0), 1.0F)
                     .build()), true));
-    public static final RegistryObject<Item> OBSIDIAN_GLAZED_DRAGON_TONGUE = ITEMS.register("obsidian_glazed_dragon_tongue", () -> new ConsumableItem(bowlFoodBuilder()
+    public static final RegistryObject<Item> OBSIDIAN_GLAZED_DRAGON_TONGUE = ITEMS.register("obsidian_glazed_dragon_tongue", () -> new ConsumableItem(defaultBuilder()
             .food((new FoodProperties.Builder()).nutrition(16).saturationMod(1.1f).alwaysEat()
                     .effect(new MobEffectInstance(EffectRegistry.LAST_STAND.get(), 1200, 1), 1.0F)
                     .effect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 1200, 4), 1.0F)
@@ -152,7 +152,7 @@ public class ItemRegistry {
         return new BlockItem(BlockRegistry.MAGIC_FROZEN_NOODLES_BLOCK.get(), defaultBuilder().stacksTo(1));
     });
     public static final RegistryObject<Item> BOWL_OF_MAGIC_FROZEN_NOODLES = ITEMS.register("bowl_of_magic_frozen_noodles", () -> new ConsumableItem(bowlFoodBuilder()
-            .food((new FoodProperties.Builder()).nutrition(12).saturationMod(1.2f).alwaysEat()
+            .food((new FoodProperties.Builder()).nutrition(14).saturationMod(1.2f).alwaysEat()
                     .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 6000, 1), 1.0F)
                     .effect(new MobEffectInstance(MobEffects.JUMP, 6000, 1), 1.0F)
                     .effect(new MobEffectInstance(MobEffects.SLOW_FALLING, 6000, 0), 1.0F)

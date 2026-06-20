@@ -16,6 +16,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CakeBlock;
 import net.minecraft.world.level.block.state.BlockState;
@@ -56,12 +57,8 @@ public class NectarJelly extends Item {
                 }
                 return InteractionResult.sidedSuccess(level.isClientSide);
             }
-            else
-            {
-                return InteractionResult.FAIL;
-            }
         }
-        return InteractionResult.PASS;
+        return InteractionResult.CONSUME;
     }
 
     @OnlyIn(Dist.CLIENT)

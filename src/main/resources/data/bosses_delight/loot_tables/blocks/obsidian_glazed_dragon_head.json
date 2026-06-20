@@ -27,7 +27,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:shulker_shell"
+          "name": "minecraft:purpur_slab"
         }
       ],
       "conditions": [
@@ -37,9 +37,15 @@
             "condition": "minecraft:block_state_property",
             "block": "bosses_delight:obsidian_glazed_dragon_head",
             "properties": {
-              "servings": "9",
-              "part": "front"
+              "servings": "9"
             }
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "bosses_delight:obsidian_glazed_dragon_head",
+          "properties": {
+            "part": "front"
           }
         }
       ]

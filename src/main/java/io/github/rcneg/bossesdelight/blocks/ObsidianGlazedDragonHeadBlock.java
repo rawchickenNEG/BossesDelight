@@ -39,15 +39,14 @@ public class ObsidianGlazedDragonHeadBlock extends Block {
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
     public static final EnumProperty<Part> PART = EnumProperty.create("part", Part.class);
     public static final IntegerProperty SERVINGS = IntegerProperty.create("servings", 0, 9);
-    protected static final VoxelShape CONTAINER_SHAPE_BACK_S = Block.box(0.0, 0.0, 0.0, 16.0, 16.0, 16.0);
-    protected static final VoxelShape CONTAINER_SHAPE_BACK_W = Block.box(0.0, 0.0, 0.0, 16.0, 16.0, 16.0);
-    protected static final VoxelShape CONTAINER_SHAPE_BACK_N = Block.box(0.0, 0.0, 0.0, 16.0, 16.0, 16.0);
-    protected static final VoxelShape CONTAINER_SHAPE_BACK_E = Block.box(0.0, 0.0, 0.0, 16.0, 16.0, 16.0);
-    protected static final VoxelShape CONTAINER_SHAPE_MIDDLE = Block.box(0.0, 0.0, 0.0, 16.0, 16.0, 16.0);
-    protected static final VoxelShape CONTAINER_SHAPE_FRONT_S = Block.box(0.0, 0.0, 0.0, 16.0, 16.0, 16.0);
-    protected static final VoxelShape CONTAINER_SHAPE_FRONT_W = Block.box(0.0, 0.0, 0.0, 16.0, 16.0, 16.0);
-    protected static final VoxelShape CONTAINER_SHAPE_FRONT_N = Block.box(0.0, 0.0, 0.0, 16.0, 16.0, 16.0);
-    protected static final VoxelShape CONTAINER_SHAPE_FRONT_E = Block.box(0.0, 0.0, 0.0, 16.0, 16.0, 16.0);
+    protected static final VoxelShape CONTAINER_SHAPE_BACK_S = Block.box(0.0, 0.0, 0.0, 16.0, 15.0, 16.0);
+    protected static final VoxelShape CONTAINER_SHAPE_BACK_W = Block.box(0.0, 0.0, 0.0, 16.0, 15.0, 16.0);
+    protected static final VoxelShape CONTAINER_SHAPE_BACK_N = Block.box(0.0, 0.0, 0.0, 16.0, 15.0, 16.0);
+    protected static final VoxelShape CONTAINER_SHAPE_BACK_E = Block.box(0.0, 0.0, 0.0, 16.0, 15.0, 16.0);
+    protected static final VoxelShape CONTAINER_SHAPE_FRONT_S = Block.box(0.0, 0.0, 0.0, 16.0, 15.0, 16.0);
+    protected static final VoxelShape CONTAINER_SHAPE_FRONT_W = Block.box(0.0, 0.0, 0.0, 16.0, 15.0, 16.0);
+    protected static final VoxelShape CONTAINER_SHAPE_FRONT_N = Block.box(0.0, 0.0, 0.0, 16.0, 15.0, 16.0);
+    protected static final VoxelShape CONTAINER_SHAPE_FRONT_E = Block.box(0.0, 0.0, 0.0, 16.0, 15.0, 16.0);
     public final List<Supplier<Item>> riceRollServings;
 
 
@@ -278,7 +277,7 @@ public class ObsidianGlazedDragonHeadBlock extends Block {
     }
 
     public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        VoxelShape shape = CONTAINER_SHAPE_MIDDLE;
+        VoxelShape shape = CONTAINER_SHAPE_BACK_N;
         if(state.getValue(PART)== Part.BACK){
             switch (state.getValue(FACING)){
                 case NORTH -> shape = CONTAINER_SHAPE_BACK_N;

@@ -5,10 +5,6 @@ import io.github.rcneg.bossesdelight.config.Config;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.core.RegistryAccess;
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.nbt.ListTag;
-import net.minecraft.nbt.StringTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.stats.Stats;
 import net.minecraft.world.InteractionHand;
@@ -20,7 +16,6 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.CakeBlock;
-import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,8 +29,9 @@ import vectorwing.farmersdelight.common.registry.ModBlocks;
 import javax.annotation.Nullable;
 import java.util.List;
 
-public class Gauntlet extends KnifeItem implements Equipable {
-    public Gauntlet(Tier tier, float attackDamage, float attackSpeed, Properties properties) {
+public class GauntletLegacy extends KnifeItem implements Equipable {
+
+    public GauntletLegacy(Tier tier, float attackDamage, float attackSpeed, Properties properties) {
         super(tier, attackDamage, attackSpeed, properties);
     }
 
@@ -45,74 +41,30 @@ public class Gauntlet extends KnifeItem implements Equipable {
         return InteractionResultHolder.consume(itemStack);
     }
 
-
-    @Override
     public void onUseTick(Level level, LivingEntity livingEntity, ItemStack stack, int remainingUseDuration) {
         int f = stack.getUseDuration() - remainingUseDuration;
         if (f < 10 || !(livingEntity instanceof Player player)) {
             return;
         }
-        var hit = player.pick(player.getAttributeValue(ForgeMod.BLOCK_REACH.get()),1,false);
+        var hit = player.pick(player.getAttributeValue(ForgeMod.BLOCK_REACH.get()), 1, false);
 
         if (hit instanceof BlockHitResult blockHit) {
             BlockPos pos = blockHit.getBlockPos();
             Direction dir = blockHit.getDirection();
             BlockState state = level.getBlockState(pos);
-            if(state.getBlock().defaultBlockState().isAir() || state.is(ModBlocks.CUTTING_BOARD.get()) || ((state.getBlock() instanceof FeastBlock || state.getBlock() instanceof CakeBlock || state.getBlock() instanceof PieBlock) && !Config.COLLECT_FEAST.get())){
+            if(state.is(ModBlocks.CUTTING_BOARD.get()) || ((state.getBlock() instanceof FeastBlock || state.getBlock() instanceof CakeBlock || state.getBlock() instanceof PieBlock)&& !Config.COLLECT_FEAST.get())){
                 return;
             }
             if(state.getDestroySpeed(level, BlockPos.containing(pos.getX(), pos.getY(), pos.getZ())) >= 0){
-                if (!player.getAbilities().instabuild){
+                if (!player.isCreative()){
                     stack.hurtAndBreak(1, player, (l) -> l.broadcastBreakEvent(player.getUsedItemHand()));
                 }
-                ItemStack dropStack = ItemStack.EMPTY;
-                if (state.hasBlockEntity()){
-                    BlockEntity blockEntity = level.getBlockEntity(pos);
-                    if (blockEntity != null){
-                        dropStack = new ItemStack(state.getBlock());
-                        if (!dropStack.isEmpty()){
-                            addCustomNbtData(dropStack, blockEntity, level.registryAccess());
-                            blockEntity.setRemoved();
-                        }
-                    }
-                }else {
-                    dropStack = state.getBlock().getCloneItemStack(level, pos, state);
-                }
-                if (!dropStack.isEmpty()){
-                    Block.popResourceFromFace(level, pos, dir, dropStack);
-                    player.awardStat(Stats.ITEM_USED.get(stack.getItem()));
-                    level.destroyBlock(pos,false);
-                    livingEntity.releaseUsingItem();
-                }
+                level.destroyBlock(pos, false, player);
+                Block.popResourceFromFace(level, pos, dir, state.getBlock().getCloneItemStack(level, pos, state));
+                player.awardStat(Stats.ITEM_USED.get(stack.getItem()));
+                livingEntity.releaseUsingItem();
             }
         }
-    }
-
-    //From Minecraft
-    private void addCustomNbtData(ItemStack p_263370_, BlockEntity p_263368_, RegistryAccess p_323897_) {
-        CompoundTag compoundtag = p_263368_.saveWithFullMetadata();
-        BlockItem.setBlockEntityData(p_263370_, p_263368_.getType(), compoundtag);
-        CompoundTag compoundtag1;
-        if (p_263370_.getItem() instanceof PlayerHeadItem && compoundtag.contains("SkullOwner")) {
-            compoundtag1 = compoundtag.getCompound("SkullOwner");
-            CompoundTag compoundtag4 = p_263370_.getOrCreateTag();
-            compoundtag4.put("SkullOwner", compoundtag1);
-            CompoundTag compoundtag2 = compoundtag4.getCompound("BlockEntityTag");
-            compoundtag2.remove("SkullOwner");
-            compoundtag2.remove("x");
-            compoundtag2.remove("y");
-            compoundtag2.remove("z");
-        }
-        /*
-        else {
-            compoundtag1 = new CompoundTag();
-            ListTag listtag = new ListTag();
-            listtag.add(StringTag.valueOf("\"(+NBT)\""));
-            compoundtag1.put("Lore", listtag);
-            p_263370_.addTagElement("display", compoundtag1);
-        }
-
-         */
     }
 
     public UseAnim getUseAnimation(ItemStack stack) {
