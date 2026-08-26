@@ -5,6 +5,8 @@ import com.google.common.collect.Lists;
 import io.github.rcneg.bossesdelight.blocks.SoulCookingPotBlock;
 import io.github.rcneg.bossesdelight.blocks.entity.container.SoulCookingPotMenu;
 import io.github.rcneg.bossesdelight.init.BlockEntityRegistry;
+import io.github.rcneg.bossesdelight.init.BlockRegistry;
+import io.github.rcneg.bossesdelight.init.ItemRegistry;
 import io.github.rcneg.bossesdelight.init.RecipeTypesRegistry;
 import io.github.rcneg.bossesdelight.recipes.SoulCookingPotRecipe;
 import it.unimi.dsi.fastutil.objects.Object2IntMap;
@@ -91,7 +93,7 @@ public class SoulCookingPotBlockEntity extends SyncedBlockEntity implements Menu
     }
 
     public static ItemStack getMealFromItem(ItemStack cookingPotStack) {
-        if (!cookingPotStack.is((Item) ModItems.COOKING_POT.get())) {
+        if (!cookingPotStack.is(ItemRegistry.SOUL_COOKING_POT_ITEM.get())) {
             return ItemStack.EMPTY;
         } else {
             CompoundTag compound = cookingPotStack.getTagElement("BlockEntityTag");
@@ -109,7 +111,7 @@ public class SoulCookingPotBlockEntity extends SyncedBlockEntity implements Menu
     }
 
     public static void takeServingFromItem(ItemStack cookingPotStack) {
-        if (cookingPotStack.is((Item)ModItems.COOKING_POT.get())) {
+        if (cookingPotStack.is(ItemRegistry.SOUL_COOKING_POT_ITEM.get())) {
             CompoundTag compound = cookingPotStack.getTagElement("BlockEntityTag");
             if (compound != null) {
                 CompoundTag inventoryTag = compound.getCompound("Inventory");
@@ -127,7 +129,7 @@ public class SoulCookingPotBlockEntity extends SyncedBlockEntity implements Menu
     }
 
     public static ItemStack getContainerFromItem(ItemStack cookingPotStack) {
-        if (!cookingPotStack.is((Item)ModItems.COOKING_POT.get())) {
+        if (!cookingPotStack.is(ItemRegistry.SOUL_COOKING_POT_ITEM.get())) {
             return ItemStack.EMPTY;
         } else {
             CompoundTag compound = cookingPotStack.getTagElement("BlockEntityTag");

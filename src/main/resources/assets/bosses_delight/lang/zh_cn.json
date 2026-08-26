@@ -97,6 +97,8 @@
 
   "farmersdelight.tooltip.brimstone_nectar_tea": "饮用后清除所有效果并完全恢复生命值",
   "farmersdelight.tooltip.crystal_fruit_cider": "饮用后随机将你的效果增加30秒持续时间",
+  "tooltip.farmersdelight.brimstone_nectar_tea": "饮用后清除所有效果并完全恢复生命值",
+  "tooltip.farmersdelight.crystal_fruit_cider": "饮用后随机将你的效果增加30秒持续时间",
 
   "tooltip.bosses_delight.glare_stout": "饮用后打乱你拥有的不大于%s级的药水效果时长和等级",
   "tooltip.bosses_delight.anima_ice_drink": "饮用后随机将你的效果增加1级（至多%s级）",

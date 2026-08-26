@@ -98,6 +98,8 @@
 
   "farmersdelight.tooltip.brimstone_nectar_tea": "Remove all effects and recover all HP after consuming.",
   "farmersdelight.tooltip.crystal_fruit_cider": "Add 30 seconds duration to a random effect you have after consuming.",
+  "tooltip.farmersdelight.brimstone_nectar_tea": "Remove all effects and recover all HP after consuming.",
+  "tooltip.farmersdelight.crystal_fruit_cider": "Add 30 seconds duration to a random effect you have after consuming.",
 
   "tooltip.bosses_delight.glare_stout": "Disorganize all effects duration and level you have which level is lower than %s after consuming.",
   "tooltip.bosses_delight.anima_ice_drink": "Add 1 level to a random effect you have after consuming (Up to %s).",
