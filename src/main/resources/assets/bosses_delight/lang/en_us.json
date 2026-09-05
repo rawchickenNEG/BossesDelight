@@ -1,7 +1,6 @@
 {
   "itemGroup.bosses_delight": "Bosses Delight",
 
-
   "advancements.bosses_delight.root.title": "Bosses Delight",
   "advancements.bosses_delight.root.description": "Exploring These Danger Attractions.",
   "advancements.bosses_delight.obsidian_glazed_dragon_head.title": "Son Of Soul",
@@ -109,10 +108,13 @@
   "bosses_delight.container.cooking_pot.served_on": "Served on: %s",
   "bosses_delight.container.cooking_pot.not_heated": "Needs cold block from below",
   "bosses_delight.container.cooking_pot.heated": "Frosted",
+  "bosses_delight.container.soul_cooking_pot": "Soul Cooking Pot",
 
   "bosses_delight.tooltip.cooking_pot.empty": "Empty",
   "bosses_delight.tooltip.cooking_pot.single_serving": "Holds 1 serving of:",
   "bosses_delight.tooltip.cooking_pot.many_servings": "Holds %s servings of:",
 
-  "bosses_delight.jei.soul_cooking": "Soul Cooking"
+  "bosses_delight.jei.soul_cooking": "Soul Cooking",
+
+  "bosses_delight.block.feast.use_container": "You need a %s to eat this."
 }

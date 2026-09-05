@@ -107,10 +107,13 @@
   "bosses_delight.container.cooking_pot.served_on": "Подається на: %s",
   "bosses_delight.container.cooking_pot.not_heated": "Потребує холодний блок знизу",
   "bosses_delight.container.cooking_pot.heated": "Охолоджений",
+  "bosses_delight.container.soul_cooking_pot": "Казанок для душ",
 
   "bosses_delight.tooltip.cooking_pot.empty": "Порожньо",
   "bosses_delight.tooltip.cooking_pot.single_serving": "Містить 1 порцію:",
   "bosses_delight.tooltip.cooking_pot.many_servings": "Містить %s порцій:",
 
-  "bosses_delight.jei.soul_cooking": "Приготування душ"
+  "bosses_delight.jei.soul_cooking": "Приготування душ",
+
+  "bosses_delight.block.feast.use_container": "Вам потрібна %s, щоб з'їсти це."
 }

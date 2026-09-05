@@ -3,6 +3,7 @@ package io.github.rcneg.bossesdelight.blocks;
 import io.github.rcneg.bossesdelight.init.ItemRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
+import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.StringRepresentable;
@@ -255,7 +256,7 @@ public class ObsidianGlazedDragonHeadBlock extends Block {
         }
 
         player.displayClientMessage(
-                TextUtils.getTranslation("block.feast.use_container", serving.getCraftingRemainingItem().getHoverName()),
+                Component.translatable("bosses_delight.block.feast.use_container", serving.getCraftingRemainingItem().getHoverName()),
                 true
         );
         return InteractionResult.PASS;

@@ -108,10 +108,13 @@
   "bosses_delight.container.cooking_pot.served_on": "需盛装于：%s",
   "bosses_delight.container.cooking_pot.not_heated": "下方需要低温方块",
   "bosses_delight.container.cooking_pot.heated": "冻结中",
+  "bosses_delight.container.soul_cooking_pot": "灵魂锅",
 
   "bosses_delight.tooltip.cooking_pot.empty": "空",
   "bosses_delight.tooltip.cooking_pot.single_serving": "装有1份：",
   "bosses_delight.tooltip.cooking_pot.many_servings": "装有%s份：",
 
-  "bosses_delight.jei.soul_cooking": "灵魂料理"
+  "bosses_delight.jei.soul_cooking": "灵魂料理",
+
+  "bosses_delight.block.feast.use_container": "你需要一个%s以食用它。"
 }

@@ -498,7 +498,7 @@ public class SoulCookingPotBlockEntity extends SyncedBlockEntity implements Menu
     }
 
     public Component getName() {
-        return (Component)(this.customName != null ? this.customName : TextUtils.getTranslation("container.cooking_pot", new Object[0]));
+        return (Component)(this.customName != null ? this.customName : Component.translatable("bosses_delight.container.soul_cooking_pot"));
     }
 
     public Component getDisplayName() {
