@@ -37,7 +37,8 @@ public class GlareStoutItem extends DrinkableItem {
             Collections.shuffle(durationList);
             Collections.shuffle(ampifierList);
             for(int i = 0; i < list.size(); ++i){
-                newEffects.add(new MobEffectInstance(list.get(i).getEffect(), durationList.get(i), ampifierList.get(i)));
+                MobEffectInstance effectE = list.get(i);
+                newEffects.add(new MobEffectInstance(effectE.getEffect(), durationList.get(i), ampifierList.get(i), effectE.isAmbient(), effectE.isVisible(), effectE.showIcon()));
             }
             consumer.getActiveEffectsMap().clear();
             for(MobEffectInstance newEffect : newEffects){

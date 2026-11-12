@@ -18,7 +18,7 @@ public class CrystalFruitCiderItem extends DrinkableItem {
         List<MobEffectInstance> list = new ArrayList<>(consumer.getActiveEffects());
         if(!list.isEmpty()){
             MobEffectInstance effectInstance = list.get(consumer.getRandom().nextInt(list.size()));
-            consumer.addEffect(new MobEffectInstance(effectInstance.getEffect(), effectInstance.getDuration() + 600, effectInstance.getAmplifier()));
+            consumer.addEffect(new MobEffectInstance(effectInstance.getEffect(), effectInstance.getDuration() + 600, effectInstance.getAmplifier(), effectInstance.isAmbient(), effectInstance.isVisible(), effectInstance.showIcon()));
         }
     }
 }

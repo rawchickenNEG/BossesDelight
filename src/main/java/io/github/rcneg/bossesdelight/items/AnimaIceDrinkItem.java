@@ -35,7 +35,7 @@ public class AnimaIceDrinkItem extends DrinkableItem {
         List<MobEffectInstance> list = new ArrayList<>(consumer.getActiveEffects().stream().filter(e -> e.getAmplifier() < Config.ANIMA_DRINK_LEVEL.get() - 1).toList());
         if(!list.isEmpty()){
             MobEffectInstance effectInstance = list.get(consumer.getRandom().nextInt(list.size()));
-            consumer.addEffect(new MobEffectInstance(effectInstance.getEffect(), effectInstance.getDuration(), effectInstance.getAmplifier() + 1));
+            consumer.addEffect(new MobEffectInstance(effectInstance.getEffect(), effectInstance.getDuration(), effectInstance.getAmplifier() + 1, effectInstance.isAmbient(), effectInstance.isVisible(), effectInstance.showIcon()));
         }
     }
 

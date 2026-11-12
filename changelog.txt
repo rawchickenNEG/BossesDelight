@@ -1,3 +1,5 @@
+1.0.9
+    Change effect editing drinks, now they will keep effect visual properties.
 1.0.8
     Change Soul Cooking Pot gui translation name.
     Fix Obsidian Glazed Dragon Head has incorrect message translation issue.

@@ -47,7 +47,7 @@ public class Gauntlet extends KnifeItem implements Equipable {
     @Override
     public void onUseTick(Level level, LivingEntity livingEntity, ItemStack stack, int remainingUseDuration) {
         int f = stack.getUseDuration() - remainingUseDuration;
-        if (f < 10 || !(livingEntity instanceof Player player)) {
+        if (f < 10 || !(livingEntity instanceof Player player) || level.isClientSide()) {
             return;
         }
         var hit = player.pick(player.getAttributeValue(ForgeMod.BLOCK_REACH.get()),1,false);
